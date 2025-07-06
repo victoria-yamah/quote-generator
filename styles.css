@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: #a560d3;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Playfair", serif;
+}
+.container{
+    background: #fff;
+    width:35%;
+    margin:15% auto;
+    border-radius: 10px;
+    height:300px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* position: relative;
+    top: 50%;
+    left:50%; */
+}
+.container h1{
+    margin-bottom: 10px;
+    
+}
+.container h1::after{
+    content:"";
+    border: 3px solid #a560d3 ;
+    display: block;
+    width:20%;
+    margin: 7px auto 35px;
+}
+blockquote::after,blockquote::before{
+    content:'"';
+}
+blockquote{
+    min-height: 70px;
+}
+blockquote,#author{
+    font-size: 20px;
+}
+#author{
+    display: block;
+    float: right;
+    margin:20px 0;
+    position: relative;
+}
+#author::before{
+    content:" ";
+    width:20px;
+    height:2px;
+    background: #a560d3;
+    position: absolute;
+    top:50%;
+    left:-30px;
+}
+/* #quote::after{
+    content:" Yamah Victoria";
+       
+} */
+ .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:12px;
+    margin-top: 50px;
+    
+ }
+ .newQuote{
+    border-radius: 30px;
+    padding:8px;
+    background:#a560d3 ;
+    color:#fff;
+    border:1px solid #a560d3;
+    outline:0;
+    width:120px;
+    margin:5px;
+    cursor: pointer;
+ }
+ .twitter{
+    border-radius: 30px;
+    padding:8px;
+    background:#fff;
+    color:#222;
+    outline:0;
+    margin:5px;
+    width:120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    cursor: pointer;
+ }
+ a{
+    text-decoration: none;
+ }
+.twitter img{
+    width: 18px;
+}
