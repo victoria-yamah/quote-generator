@@ -102,3 +102,10 @@ blockquote,#author{
 .twitter img{
     width: 18px;
 }
+@media (max-width:720px) {
+   .container{
+       width:80%;
+       height:auto;
+   } 
+
+}
